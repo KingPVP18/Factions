@@ -4,7 +4,7 @@ Factions
 Factions plugin for PocketMine-MP Servers. 
 
 Law Things: 
-This software is under LGPL Licence. 
+This software is under GNU GPL Licence. 
 Do not distribute it without permission. 
 No comercial use of this software. 
 If you disobey the rules above, you may recieve a law suit. 
