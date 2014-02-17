@@ -1,9 +1,9 @@
 Additional Declaration: 
-1: iControlU and DisguiseCraft concept is not mine BUT
+1: Factions concept is not mine BUT
     I implemented them first in PocketMine plugins and
    they are NOT on the same platform. So I have the concept/idea/code 
    copyright on the MCPE platform and the original concept is
-   ONLY copyright on Bukkit platform. 
+   ONLY copyrighted on Bukkit platform. 
 2: You may NOT copy my code for your own personal use or release it,
 3: You may NOT commercially sell my plugin,
 4: You may NOT claim it as your own creation,

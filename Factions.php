@@ -2,10 +2,10 @@
 /*
 __PocketMine Plugin__
 name=Factions
-version=1.1.0-Alpha
+version=1.1.2-Alpha
 author=Kevin Wang
 class=KVFactions
-apiversion=11,12
+apiversion=12
 */
 
 /* 
@@ -538,8 +538,8 @@ class KVFactions implements Plugin{
 				return("Faction Name: " . $this->getFacNameInCase($arg[0]) . "\nMoney: " . $money);
 				break;
 			case "sm":
-				if(count($arg) != 1){
-					return("Description: Get money of a faction. \nUsage: \n/fadm gm [FactionName] [Money]");
+				if(count($arg) != 2){
+					return("Description: Set money of a faction. \nUsage: \n/fadm gm [FactionName] [Money]");
 				}
 				if(!($this->chkFacExists($arg[0]))){
 					return("Target faction doesn't exist. ");
