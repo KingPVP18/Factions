@@ -178,6 +178,10 @@ class KVFactions implements Plugin{
 				if(count($arg)!=1){
 					return("Usage: \n/f create [Faction Name]");
 				}
+				if(strlen($arg[0])>8)
+				{
+				return "\nFaction name too long!\n-->The faction must not exceed 8 letters.\n";
+				}
 				$ret = $this->facCreate($arg[0], $issuer->iusername);
 				if($ret == 0){
 					$this->api->chat->broadcast($issuer->iusername . " created faction: " . $arg[0]);
